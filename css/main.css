@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+#quiz {
+  text-align: center;
+  width: 450px;
+  margin: 10px auto;
+}
+
+h1,
+h2 {
+  letter-spacing: 3px;
+}
+
+h1 {
+  color: tomato;
+}
+
+h2 {
+  border-bottom: 3px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: gray;
+}
+
+h3 {
+  color: gray;
+  text-align: left;
+}
+
+input {
+  margin: 0 auto;
+  width: 430px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #1A82BF;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 32px;
+  margin: 30px;
+}
