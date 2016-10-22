@@ -4,7 +4,7 @@ var userInput = document.getElementsByTagName('input')
 console.log(userInput)
 //empty array
 var userAnswers = []
-var correctAnswers = 0
+var rightAnswers = 0
 var wrongAnswers = 0
 
 
@@ -17,11 +17,11 @@ function getInfo() {
   // console.log(userAnswers)
   for (var i = 0; i < answersArray.length; i++) {
     if (answersArray[i] == userAnswers[i]) {
-      correctAnswers++
+      rightAnswers++
     } else {
       wrongAnswers++
     }
   }
-  console.log(correctAnswers)
-  console.log(wrongAnswers)
+  document.getElementById('right').textContent = rightAnswers
+  document.getElementById('wrong').textContent = wrongAnswers
 }

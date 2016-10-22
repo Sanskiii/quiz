@@ -28,6 +28,7 @@ h2 {
   color: gray;
 }
 
+
 h3 {
   color: gray;
   text-align: left;
@@ -48,5 +49,24 @@ button {
   padding: 10px 30px;
   border: none;
   font-size: 32px;
-  margin: 30px;
+  margin: 30px 0;
+  display: inline-block;
+  float: left;
+
+}
+
+p {
+  text-align: center;
+}
+
+#right {
+  color: green;
+}
+
+#wrong {
+  color: red;
+}
+
+.results {
+  float: right;
 }
